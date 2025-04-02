@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kompedium Grafiki Komputerowej</title>
+   
+    <title>Grafika Komputerowa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-image: url('https://i.pinimg.com/736x/27/9f/ca/279fca6f7d9b551c790ba8279453849f.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #555;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            margin: 0;
+            border-top: 2px solid #555;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #f4f4f4;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #fff;
+        }
+
+        main {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-top: 30px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1rem;
+            margin-top: 10px;
+        }
+
+         img {
+            max-width: 30%;
+            height: auto;
+            border: 5px solid #444;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kompedium Grafiki Komputerowej</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona Główna</a></li>
+            <li><a href="rastrowa.html">Grafika Rastrowa</a></li>
+            <li><a href="wektorowa.html">Grafika Wektorowa</a></li>
+            <li><a href="trojwymiarowa.html">Grafika Trójwymiarowa</a></li>
+            <li><a href="kompendium.html">Kompendium</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Programy do Edytowania Grafiki Komputerowej</h2>
+        <p>Programy do edytowania grafiki komputerowej to podstawowe narzędzia dla każdego, kto zajmuje się projektowaniem, fotografią czy tworzeniem ilustracji. Dzięki nim możemy tworzyć i edytować obrazy, zarówno rastrowe, jak i wektorowe. Każdy program oferuje coś innego, więc wybór zależy od tego, czym dokładnie chcemy się zająć.</p>
+    
+        <h3>1. Adobe Photoshop</h3>
+        <p>Adobe Photoshop to chyba najbardziej znany program do obróbki zdjęć i grafiki rastrowej. Jest świetny do edytowania zdjęć, retuszu, tworzenia grafiki cyfrowej, a także pracy z efektami specjalnymi. Dzięki Photoshopowi można naprawdę zrobić prawie wszystko z obrazem, co czyni go ulubionym narzędziem profesjonalistów na całym świecie.</p>
+        <div style="text-align:center;">
+            <img src="data:image/png;base64,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" alt="Grafika Wektorowa 1"  style="max-width: 100px;">
+        </div>
+    
+        <h3>2. Adobe Illustrator</h3>
+        <p>Adobe Illustrator to program do grafiki wektorowej, który świetnie nadaje się do tworzenia logo, ikon, ilustracji czy wszelkich innych grafik, które muszą być skalowane bez utraty jakości. Idealnie sprawdza się, gdy zależy nam na precyzji i możliwości powiększania obrazu bez zniekształceń.</p>
+        <div style="text-align:center;">
+            <img src="data:image/png;base64,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" alt="Grafika Wektorowa 1"  style="max-width: 100px;">
+        </div>
+    
+        <h3>3. CorelDRAW</h3>
+        <p>CorelDRAW to kolejny popularny program do grafiki wektorowej. Jest bardzo lubiany wśród projektantów logo i innych materiałów reklamowych. Dzięki bogatemu zestawowi narzędzi pozwala na dokładną pracę z grafiką wektorową, a jego interfejs jest dość przyjazny dla użytkowników, którzy dopiero zaczynają swoją przygodę z projektowaniem graficznym.</p>
+        <div style="text-align:center;">
+            <img src="data:image/png;base64,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" alt="Grafika Wektorowa 1"  style="max-width: 100px;">
+    
+        <h3>4. Inkscape</h3>
+        <p>Inkscape to darmowy program do tworzenia grafiki wektorowej. Choć może nie ma wszystkich zaawansowanych funkcji, jakie oferują płatne narzędzia, jest bardzo dobrym wyborem dla osób, które dopiero zaczynają i nie chcą wydawać pieniędzy. Inkscape pozwala na tworzenie wysokiej jakości grafik wektorowych, więc jeśli potrzebujesz czegoś bez kosztów, to zdecydowanie warto go wypróbować.</p>
+        <div style="text-align:center;">
+            <img src="data:image/jpeg;base64,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" alt="Grafika Wektorowa 1"  style="max-width: 100px;">
+        </div>
+    
+        <h3>Co potrafią te programy?</h3>
+        <p>Każdy z tych programów ma swoje unikalne funkcje, które sprawiają, że są one używane do różnych celów:</p>
+        <ul>
+            <li><strong>Grafika wektorowa:</strong> Illustrator, CorelDRAW i Inkscape to programy, które pozwalają na tworzenie grafik, które można dowolnie skalować bez utraty jakości.</li>
+            <li><strong>Obróbka zdjęć:</strong> Photoshop jest niezastąpiony, jeśli chodzi o edytowanie zdjęć, retuszowanie, poprawianie kolorów czy dodawanie efektów.</li>
+            <li><strong>Tworzenie logo i ilustracji:</strong> Dzięki narzędziom takim jak Illustrator czy CorelDRAW, możesz stworzyć profesjonalne logo czy ilustracje, które będą wyglądały świetnie w różnych rozmiarach.</li>
+            <li><strong>Praca z warstwami:</strong> Warstwy to podstawowe narzędzie do pracy z bardziej złożonymi projektami – pozwalają na edytowanie poszczególnych elementów obrazu bez wpływu na resztę.</li>
+            <li><strong>Obsługa wielu formatów:</strong> Wszystkie te programy obsługują mnóstwo formatów plików, co pozwala na łatwe eksportowanie gotowych projektów w różnych formatach.</li>
+        </ul>
+    
+        <h3>Podsumowanie</h3>
+        <p>Wybór odpowiedniego programu zależy od tego, co dokładnie chcesz robić. Jeśli potrzebujesz zaawansowanej obróbki zdjęć, Photoshop będzie najlepszym wyborem. Do tworzenia logo i ilustracji idealnie nadaje się Illustrator czy CorelDRAW. Z kolei jeśli szukasz darmowego narzędzia do grafiki wektorowej, Inkscape będzie świetną alternatywą. Każdy z tych programów ma swoje mocne strony, więc warto wybrać ten, który najlepiej odpowiada Twoim potrzebom.</p>
+    </main>
+
+    <footer>
+        <p>Bartosz Kopania 1tc</p>
+    </footer>
+</body>
+</html>
