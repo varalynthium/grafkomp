@@ -1,9 +1,6 @@
-<!DOCTYPE html>
 <html>
 <head>
     <title>Grafika Rastrowa</title>
-  
-    <title>Grafika Komputerowa</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
     body {
@@ -19,11 +16,9 @@
 
     header {
         background-color: rgba(0, 0, 0, 0.7);
-        color: #f4f4f4;
         padding: 20px;
         text-align: center;
         font-size: 2rem;
-        letter-spacing: 1px;
         border-bottom: 2px solid #555;
     }
 
@@ -59,13 +54,12 @@
         border-radius: 10px;
     }
 
-    h2 {
+    h2, h3 {
         text-align: center;
-        font-size: 1.8rem;
         margin-top: 30px;
     }
 
-    p {
+    p, ul {
         text-align: center;
         font-size: 1.1rem;
         margin-top: 10px;
@@ -75,14 +69,22 @@
         display: flex;
         justify-content: center;
         gap: 20px;
+        flex-wrap: wrap;
     }
 
-    
-        img {
-            max-width: 30%;
-            height: auto;
-            border: 5px solid #444;
-            margin: 10px;
+    img {
+        max-width: 30%;
+        height: auto;
+        border: 5px solid #444;
+        margin: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-top: 2px solid #555;
+        margin-top: 20px;
     }
     </style>
 </head>
@@ -90,7 +92,7 @@
     <header>
         <h1>Grafika Rastrowa</h1>
     </header>
-    
+
     <nav>
         <ul>
             <li><a href="index.html">Strona Główna</a></li>
@@ -104,10 +106,36 @@
     <main>
         <h2>Co to jest grafika rastrowa?</h2>
         <p>Grafika rastrowa składa się z pikseli, które tworzą obraz. Jest to idealne rozwiązanie dla zdjęć i obrazów o dużym stopniu szczegółowości.</p>
-        <img src="https://ponad.pl/wp-content/uploads/2019/01/rw-1024x698.jpg" alt="Grafika Rastrowa 1">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPmSb47zl_XzLXUxqhGZvwbzEP5u06lEpoXw&s" alt="Grafika Rastrowa 2">
-        <img src="https://www.informatyk.edu.pl/wp-content/uploads/2017/05/Bez-tytu%C5%82u.png" alt="Grafika Rastrowa 3">
 
+        <div class="images-container">
+            <img src="https://ponad.pl/wp-content/uploads/2019/01/rw-1024x698.jpg" alt="Grafika Rastrowa 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPmSb47zl_XzLXUxqhGZvwbzEP5u06lEpoXw&s" alt="Grafika Rastrowa 2">
+            <img src="https://www.informatyk.edu.pl/wp-content/uploads/2017/05/Bez-tytu%C5%82u.png" alt="Grafika Rastrowa 3">
+        </div>
+
+        <h3>Zalety grafiki rastrowej:</h3>
+        <ul>
+            <li>Wysoka jakość odwzorowania detali</li>
+            <li>Doskonała do zdjęć i fotorealistycznych obrazów</li>
+            <li>Szeroka kompatybilność z programami graficznymi</li>
+        </ul>
+
+        <h3>Wady grafiki rastrowej:</h3>
+        <ul>
+            <li>Traci jakość przy powiększaniu (pikselizacja)</li>
+            <li>Większy rozmiar pliku w porównaniu do grafiki wektorowej</li>
+            <li>Trudniejsza edycja pojedynczych elementów</li>
+        </ul>
+
+        <h3>Zastosowania:</h3>
+        <ul>
+            <li>Fotografia cyfrowa</li>
+            <li>Obróbka zdjęć (Photoshop)</li>
+            <li>Projekty graficzne i internetowe bannery</li>
+        </ul>
+
+        <h3>Ciekawostka:</h3>
+        <p>Formaty grafiki rastrowej to m.in. JPG, PNG, GIF, BMP i TIFF. Każdy z nich ma swoje specyficzne właściwości i zastosowania.</p>
     </main>
 
     <footer>
